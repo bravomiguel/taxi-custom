@@ -54,7 +54,7 @@ class TaxiCustomEnv(discrete.DiscreteEnv):
     - 5: dropoff passenger
     
     Rewards: 
-    There is a reward of -1 for each action and an additional reward of +20 for delivering the passenger. There is a reward of -10 for executing actions "pickup" and "dropoff" illegally. There is also a reward of -5 for driving into the pothole.
+    There is a reward of -1 for each action and an additional reward of +20 for delivering the passenger. There is a reward of -10 for executing actions "pickup" and "dropoff" illegally. There is also a reward of -8 for driving into the pothole.
     
     Rendering:
     - blue: passenger
